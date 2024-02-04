@@ -9,7 +9,7 @@ export default function About(){
     return  <>
 
      <div className='w-full h-screen snap-center flex'>
-      <h2 className="text-center text-4xl m-5">About</h2>
+      {/* <h2 className="text-center text-4xl m-5">About</h2> */}
 
       <div className=' rounded-full h-64 w-80  m-5'>
         <img src={img} alt="image" className='rounded-full h-42 w-42'/>
