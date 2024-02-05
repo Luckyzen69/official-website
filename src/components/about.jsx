@@ -84,8 +84,7 @@ export default function About(){
 <ul className="space-y-10 mt-6 font-mono ">
     <li className="text-lg"> Secondary Education Examination (SEE) <span>: 2021 AD / 2077 BS</span></li>
     <li className="text-lg">NEB BOARD (SLC / +2) <span>: 2023 AD / 2079 BS</span></li>
-    <li className="text-lg">MERN Stack : Course taken at Mindrisers: Institute of Technology </li>
-    <li className="text-lg">Bachelor : applied </li>
+    
 </ul>
 </div>
       </div>
