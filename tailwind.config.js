@@ -11,7 +11,8 @@ export default {
       primary:'#222224',
       white:"#fff",
       black:"#000",
-      grey:'#5f5f5f'
+      grey:'#5f5f5f',
+      green:"#338573 "
     }
   },
   plugins: [],

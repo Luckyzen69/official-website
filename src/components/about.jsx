@@ -7,13 +7,18 @@ import { FaNodeJs } from "react-icons/fa";
 
 export default function About(){
     return  <>
-
-     <div className='w-full h-screen snap-center flex'>
-      {/* <h2 className="text-center text-4xl m-5">About</h2> */}
-
-      <div className=' rounded-full h-64 w-80  m-5'>
-        <img src={img} alt="image" className='rounded-full h-42 w-42'/>
+    <div >
+      <h2 className="text-center text-4xl m-5">About</h2>
+      <div className=' rounded-full m-5 flex flex-col sm:flex-row  '>
+        <img src={img} alt="image" className='rounded-full h-56 w-56 ml-20 sm:ml-0' />
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit non delectus est iste quae assumenda distinctio qui officiis perspiciatis doloribus neque necessitatibus error corporis, debitis consequatur placeat ipsa! Quae, dolor.</p>
       </div> 
+
+    </div>
+
+     <div className='w-full h-screen snap-center flex justify-center'>
+
+
       <div >
         <div className="border sm:rounded-full p-2 m-12 text-center hover:ring-2 ">
             <p className="font-bold text-3xl  font-mono mb-5  ">  Skills </p>
@@ -57,14 +62,10 @@ export default function About(){
             </div>
         </div>
 
-
-
-
-
         <div>
 
 
-<div className="grid grid-cols-1 sm:grid-cols-2    h-max">
+<div className="grid grid-cols-1 sm:grid-cols-2">
 
 <div className="m-2 text-center">
 <h2 className="font-bold font-mono text-xl">AIMS / GOALS  </h2>
@@ -87,8 +88,14 @@ export default function About(){
     <li className="text-lg">Bachelor : applied </li>
 </ul>
 </div>
-
       </div>
-      </div>  </div>  </div>
+      </div> 
+       </div> 
+        </div>
+
+
+
+
+
     </>
 }
