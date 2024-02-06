@@ -10,7 +10,7 @@ export default function About(){
     <div className='bg-pink'>
       <h2 className="text-center font-bold text-4xl ">About</h2>
       <div className=' rounded-full  flex flex-col sm:flex-row text-lg  '>
-        <img src={img} alt="image" className='rounded-full h-56 w-56  sm:ml-10' />
+        <img src={img} alt="image" className='rounded-full sm:h-56 w-56 ml-24 sm:ml-10' />
         <p className='sm:ml-20 sm:mt-16'>Learning web development since 2021. <br /> Gained knowledge about different framework of javascript. <br />
         Learned Mern Stack at <b>Mindrisers: Institution Of Technology.</b>
         </p>
