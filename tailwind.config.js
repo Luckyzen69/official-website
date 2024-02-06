@@ -12,7 +12,9 @@ export default {
       white:"#fff",
       black:"#000",
       grey:'#5f5f5f',
-      green:"#338573 "
+      green:"#338573 ",
+      pink:"#e7decd",
+      red:"#fe0101",
     }
   },
   plugins: [],

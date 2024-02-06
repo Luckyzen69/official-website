@@ -7,16 +7,17 @@ import { FaNodeJs } from "react-icons/fa";
 
 export default function About(){
     return  <>
-    <div >
-      <h2 className="text-center text-4xl m-5">About</h2>
-      <div className=' rounded-full m-5 flex flex-col sm:flex-row  '>
-        <img src={img} alt="image" className='rounded-full h-56 w-56 ml-20 sm:ml-0' />
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit non delectus est iste quae assumenda distinctio qui officiis perspiciatis doloribus neque necessitatibus error corporis, debitis consequatur placeat ipsa! Quae, dolor.</p>
+    <div className='bg-pink'>
+      <h2 className="text-center font-bold text-4xl ">About</h2>
+      <div className=' rounded-full  flex flex-col sm:flex-row text-lg  '>
+        <img src={img} alt="image" className='rounded-full h-56 w-56  sm:ml-10' />
+        <p className='sm:ml-20 sm:mt-16'>Learning web development since 2021. <br /> Gained knowledge about different framework of javascript. <br />
+        Learned Mern Stack at <b>Mindrisers: Institution Of Technology.</b>
+        </p>
       </div> 
-
     </div>
 
-     <div className='w-full h-screen snap-center flex justify-center'>
+     <div className='w-full h-screen snap-center flex justify-center bg-pink'>
 
 
       <div >
