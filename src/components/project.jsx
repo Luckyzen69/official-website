@@ -2,8 +2,8 @@
 
  export default function Projects(){
    return <>
-   <div className="w-full h-screen">
-   <h2 className="text-center font-bold text-3xl m-2"> Projects</h2>
+   <div className="w-full h-screen bg-pink">
+   <h2 className="text-center font-bold text-3xl "> Projects</h2>
     
     <div className="   grid grid-cols-1 sm:grid-cols-2 ">
       <div className="border m-4">
