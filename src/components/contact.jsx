@@ -5,6 +5,7 @@ export default function Contact(){
     <div className="">
        <h2 className="text-2xl font-bold text-center">Contact</h2>
        <div className="flex">
+        <p></p>
        <p className="text-2xl"><IoMail/></p>
        <p>Thakurizen22@gmail.com </p>
        </div>
