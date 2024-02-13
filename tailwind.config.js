@@ -15,6 +15,7 @@ export default {
       green:"#338573 ",
       pink:"#e7decd",
       red:"#fe0101",
+      green:"#36d7b7"
     }
   },
   plugins: [],
