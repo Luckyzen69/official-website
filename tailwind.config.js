@@ -5,7 +5,7 @@ export default {
     extend: {},
     fontFamily: {
       'serif': ['Spectral', 'serif'],
-
+      'mono':[  'monospace']
     },
     colors:{
       primary:'#222224',

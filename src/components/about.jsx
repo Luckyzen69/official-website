@@ -1,4 +1,3 @@
-import img from  '../assets/main.png';
 import { DiCss3 ,DiHtml5 ,DiJsBadge,DiMongodb ,DiVisualstudio,DiNodejs,DiNpm   } from "react-icons/di";
 import { SiTailwindcss,SiGithub ,SiRedux  } from "react-icons/si";
 import { SiExpress,SiPostman  ,SiReact } from "react-icons/si";
@@ -7,17 +6,17 @@ import { FaNodeJs } from "react-icons/fa";
 
 export default function About(){
     return  <>
-    <div className='bg-pink'>
-      <h2 className="text-center font-bold text-4xl ">About</h2>
+    {/* <div className='bg-primary text-white'>
+      <h2 className="text-center font-bold text-4xl p-2 ">About</h2>
       <div className=' rounded-full  flex flex-col sm:flex-row text-lg  '>
-        <img src={img} alt="image" className='rounded-full sm:h-56 w-56 ml-24 sm:ml-10' />
-        <p className='sm:ml-20 sm:mt-16'>Learning web development since 2021. <br /> Gained knowledge about different framework of javascript. <br />
+        <img src={img} alt="image" className='rounded-full sm:h-56 w-56 ml-20 sm:ml-10' />
+        <p className='sm:ml-20 sm:mt-16 font-mono'>Learning web development since 2021. <br /> Gained knowledge about different framework of javascript. <br />
         Learned Mern Stack at <b>Mindrisers: Institution Of Technology.</b>
         </p>
       </div> 
-    </div>
+    </div> */}
 
-     <div className='w-full h-screen snap-center flex justify-center bg-pink'>
+     <div className='sm:w-full sm:h-screen snap-center flex justify-center bg-primary text-white  '>
 
 
       <div >
@@ -92,10 +91,7 @@ export default function About(){
       </div> 
        </div> 
         </div>
-
-
-
-
+      <hr className="text-white"/>
 
     </>
 }

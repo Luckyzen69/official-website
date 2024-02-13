@@ -19,5 +19,6 @@ export default function Home(){
       </ul>
     </div>
     </div>
+      <hr className="text-white"/>
     </>
 }
