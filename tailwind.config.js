@@ -5,7 +5,8 @@ export default {
     extend: {},
     fontFamily: {
       'serif': ['Spectral', 'serif'],
-      'mono':[  'monospace']
+      'mono':[  'monospace'],
+      'indie':["Indie Flower"]
     },
     colors:{
       primary:'#222224',
@@ -15,7 +16,8 @@ export default {
       green:"#338573 ",
       pink:"#e7decd",
       red:"#fe0101",
-      green:"#36d7b7"
+      green:"#36d7b7",
+      orange:"#f25826  "
     }
   },
   plugins: [],
