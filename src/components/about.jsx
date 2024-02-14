@@ -6,24 +6,16 @@ import { FaNodeJs } from "react-icons/fa";
 
 export default function About(){
     return  <>
-    {/* <div className='bg-primary text-white'>
-      <h2 className="text-center font-bold text-4xl p-2 ">About</h2>
-      <div className=' rounded-full  flex flex-col sm:flex-row text-lg  '>
-        <img src={img} alt="image" className='rounded-full sm:h-56 w-56 ml-20 sm:ml-10' />
-        <p className='sm:ml-20 sm:mt-16 font-mono'>Learning web development since 2021. <br /> Gained knowledge about different framework of javascript. <br />
-        Learned Mern Stack at <b>Mindrisers: Institution Of Technology.</b>
-        </p>
-      </div> 
-    </div> */}
 
      <div className='sm:w-full sm:h-screen snap-center flex justify-center bg-primary text-white  '>
-
-
       <div >
         <div className="border sm:rounded-full p-2 m-12 text-center hover:ring-2 ">
+
             <p className="font-bold text-3xl  font-mono mb-5  ">  Skills </p>
             <div className=" space-x-1 justify-center  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 "  >
-                <div  >
+
+                <div>
+
                 <p className="font-bold font-mono text-xl">Font-End</p>
                 <ul className="flex space-x-4 justify-center text-3xl  ">
                     
@@ -36,6 +28,7 @@ export default function About(){
                 </div>
 
                 <div>
+
                 <p className="font-bold font-mono text-xl">Back-End</p>
 
                 <ul className="flex space-x-4 justify-center text-3xl ">
@@ -47,17 +40,18 @@ export default function About(){
                     
                 </ul>
                 </div>
+
                 <div>
 
                 <p className="font-bold font-mono text-xl">Database & Others</p>
+
                 <ul className="flex space-x-4 justify-center text-3xl ">
                     <li> <DiMongodb/></li>
                     <li> <SiPostman/></li>
                     <li> <DiVisualstudio/></li>
                     <li> <FaFigma/></li>
-                    
-
                 </ul>
+
                 </div>
             </div>
         </div>
@@ -79,7 +73,9 @@ export default function About(){
 </div>
 
 <div className="m-2 text-center  p-0.5">
+
 <h2 className="font-bold font-mono text-xl">Education</h2>
+
 <div className="vl"></div>
 <ul className="space-y-10 mt-6 font-mono ">
     <li className="text-lg"> Secondary Education Examination (SEE) <span>: 2021 AD / 2077 BS</span></li>
@@ -87,10 +83,13 @@ export default function About(){
     
 </ul>
 </div>
+
       </div>
-      </div> 
+      </div>
+
        </div> 
         </div>
+
       <hr className="text-white"/>
 
     </>

@@ -23,10 +23,12 @@ function App() {
   return (
     <>
     <div className='snap bg-primary  w-full h-screen relative'>
+      
       {
         loading ?
         <div className="flex justify-center items-center text-center flex-col pt-60 ">
           <p className="font-serif  text-center text-white text-2xl m-2">Lagzen Thakuri.</p>
+
         <BarLoader 
   color="#36d7b7"
   speedMultiplier={0.035}
@@ -36,6 +38,7 @@ function App() {
   
 />
 <p className="font-serif  text-center text-grey text-xl m-2">official website</p>
+
   </div>
                 :
 <div>
