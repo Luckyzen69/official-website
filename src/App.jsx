@@ -6,6 +6,7 @@ import './App.css'
 import About from './components/about'
 import Projects from './components/project'
 import Contact from './components/contact'
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
     <About/>
     <Projects/>
     <Contact/>
+    <SpeedInsights />
     </div>
 
 }
