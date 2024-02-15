@@ -8,8 +8,6 @@ import Projects from './components/project'
 import Contact from './components/contact'
 
 
-
-
 function App() {
   
   const [loading,setLoading] = useState(false);
@@ -18,7 +16,7 @@ function App() {
     setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-    },7000)
+    },1000)
   },[])
   return (
     <>
@@ -31,7 +29,7 @@ function App() {
 
         <BarLoader 
   color="#36d7b7"
-  speedMultiplier={0.035}
+  speedMultiplier={0.3}
   width={400}
   height={4}
   loading ={loading}
