@@ -1,6 +1,7 @@
  import Jobportal from "../assets/jobportal.png"
 import Portfoilo from "../assets/portfoilo.png"
 import { GoDotFill } from "react-icons/go";
+import Hangman from "../assets/hangman.png"
 
  export default function Projects(){
    return <>
@@ -31,6 +32,19 @@ import { GoDotFill } from "react-icons/go";
 
       </div>
       </div>
+
+      <div className="border flex flex-col sm:flex-row">
+
+<img src={hangman}  alt="hangman game" />
+
+  <div className="flex flex-col">
+
+<h3 className="font-bold sm:ml-5 flex text-xl font-mono"><GoDotFill className="text-orange m-1"/>Hangman Game </h3>
+<p className="font-mono text-lg m-2">A hangman game project where user should guess the word before the stickman body becomes fully visible.</p>
+<p className=" text-grey sm:ml-5 "><a href="https://luckyzen69.github.io/Hangman-Game/" target="blank" className="underline text-green">View Project</a> </p>
+
+  </div>
+</div>
 
     </div>
    </div>
