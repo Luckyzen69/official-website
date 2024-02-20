@@ -35,7 +35,7 @@ import Hangman from "../assets/hangman.png"
 
       <div className="border flex flex-col sm:flex-row">
 
-<img src={hangman}  alt="hangman game" />
+<img src={Hangman}  alt="hangman game" />
 
   <div className="flex flex-col">
 
