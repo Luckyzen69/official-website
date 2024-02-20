@@ -8,7 +8,7 @@ import Hangman from "../assets/hangman.png"
    <div className=" bg-primary text-white">
     
     <div className="   flex flex-col bg-primary p-4">
-      <div className="border flex flex-col sm:flex-row">
+      <div className="border flex flex-col lg:flex-row">
 
       <img src={Portfoilo}  alt="Portfoilo" />
 
@@ -21,7 +21,7 @@ import Hangman from "../assets/hangman.png"
         </div>
       </div>
 
-      <div className="border flex  flex-col sm:flex-row p-4">
+      <div className="border flex  flex-col lg:flex-row p-4">
         <img src={Jobportal} alt="Jobportal" />
 
       <div className="flex flex-col">
@@ -33,9 +33,9 @@ import Hangman from "../assets/hangman.png"
       </div>
       </div>
 
-      <div className="border flex flex-col sm:flex-row">
+      <div className="border flex flex-col lg:flex-row">
 
-<img src={Hangman}  alt="hangman game" />
+<img src={Hangman}  alt="hangman game" className="lg:h-96"/>
 
   <div className="flex flex-col">
 
