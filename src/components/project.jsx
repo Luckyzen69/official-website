@@ -3,9 +3,11 @@ import Portfoilo from "../assets/portfoilo.png"
 import { GoDotFill } from "react-icons/go";
 import Hangman from "../assets/hangman.png"
 
+
  export default function Projects(){
+
    return <>
-   <div className=" bg-primary text-white">
+   <div className=" bg-primary text-white projects"  id="projects">
     
     <div className="   flex flex-col bg-primary p-4">
       <div className="border flex flex-col lg:flex-row">

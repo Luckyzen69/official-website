@@ -1,20 +1,16 @@
 import { useState, useEffect } from "react";
 import BarLoader from "react-spinners/BarLoader";
 import Home from './components/home'
+import { Route,Routes } from "react-router-dom"
+
 import './App.css'
 import About from './components/about'
 import Projects from './components/project'
 import Contact from './components/contact'
-import { SpeedInsights } from '@vercel/speed-insights/react';
-import Aos from "aos";
-import 'aos/dist/aos.css'
-
+import Poetry from './components/poetry'
 
 function App() {
-  useEffect(()=>{
-    Aos.init({duration:2000});
-  },[])
-  
+
   const [loading,setLoading] = useState(false);
   
   useEffect(()=>{
@@ -46,11 +42,17 @@ function App() {
                 :
 <div>
 
-    <Home  data-aos="fade-right" />
-    <About  data-aos="fade-left"/>
-    <Projects  data-aos="fade-top"/>
-    <Contact  data-aos="fade-left"/>
-    <SpeedInsights  data-aos="fade-right"/>
+
+
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/home" element={<Home/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+      <Route path="/Projects" element={<Projects/>}/>
+      <Route path="/poetry" element={<Poetry/>}/>
+     </Routes>
+   
     </div>
 
 }
